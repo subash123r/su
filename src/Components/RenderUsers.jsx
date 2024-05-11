@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 function RenderUsers({ userData, setUserData }) {
   const navigate = useNavigate();
 
-  return (
+  retun (
     <div className="w-screen bg-gray-300 pt-8 px-6 sm:px-4 pb-8">
       <h1 className="text-2xl text-black text-center mb-8 uppercase font-bold">
         user management
